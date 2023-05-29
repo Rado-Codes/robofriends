@@ -1,7 +1,15 @@
-import React, { Component } from 'react';
+import React, { Component, ReactNode  } from 'react';
 
-class ErrorBoundary extends Component {
-    constructor(props) {
+interface ErrorBoundaryProps {
+    children: ReactNode;
+}
+
+interface ErrorBoundaryState {
+    hasError: boolean;
+}
+
+class ErrorBoundary extends Component<ErrorBoundaryProps, ErrorBoundaryState> {
+    constructor(props: ErrorBoundaryProps) {
         super(props);
         this.state={
             hasError: false
@@ -9,7 +17,7 @@ class ErrorBoundary extends Component {
     }
 
     //If this function gets triggered then set state of hasError
-    componentDidCatch(error, info) {
+    componentDidCatch(error: Error, info: React.ErrorInfo) {
         this.setState({ hasError: true })
     }
 
