@@ -1,5 +1,9 @@
 # Robofriends
 
+Live App: https://rado-codes.github.io/robofriends/
+
+## About the project
+
 Robofriends is a simple web application. It allows users to search and view a collection of robot profiles. The application demonstrates the fundamentals of building a responsive and interactive web interface using modern web technologies.
 
 ## Features
