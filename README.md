@@ -19,4 +19,4 @@ Robofriends is a simple web application. It allows users to search and view a co
 
 ## Acknowledgements
 
-The Robofriends project was developed as part of the "Zero to Mastery" web development course. I rebuilt App from Classes to React Hooks with use of Typescript. I did also version integrated with Redux/Redux-thunk
+The Robofriends project was developed as part of the "Zero to Mastery" web development course. I rebuilt App from Classes to React Hooks with use of Typescript. I did also version integrated with Redux/Redux-thunk.
