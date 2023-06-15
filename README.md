@@ -1,6 +1,6 @@
 # Robofriends
 
-Live App: https://rado-codes.github.io/robofriends/
+Live App: https://radoslawflis.github.io/robofriends/
 
 ## About the project
 
