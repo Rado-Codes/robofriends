@@ -15,7 +15,7 @@ Robofriends is a simple web application. It allows users to search and view a co
 ## Technologies Used
 
 * Frontend: HTML, CSS, JavaScript, Typescript, React.js
-* Backend: N/A (The application fetches robot data from an API)
+* Backend: Not applicable (The application fetches robot data from an API)
 
 ## Acknowledgements
 
